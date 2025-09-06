@@ -1,8 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="AutomationSuite">
     <test name="LoginTests">
+   
+   
         <classes>
-            <class name="tests.LoginTest.java"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.HomePageTest"/>
         </classes>
     </test>
 </suite>
